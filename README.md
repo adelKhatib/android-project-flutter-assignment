@@ -2,15 +2,20 @@
 
 A new Flutter project.
 
-## Getting Started
+# Dry part
 
-This project is a starting point for a Flutter application.
+# Q1:
+- snappingSheetController class is used to implement the controller pattern in the snapping_sheet library.
+- This class enables the developer to get the current snapping position,snap to a given snapping position
+   using snapToPosition .
 
-A few resources to get you started if this is your first Flutter project:
+# Q2:
+ - snappingCurve : controls the animation type.
+ - snappingDuration : controls the time would take for the animation.
+ - these parameters are part of SnapPosition that control the position and animation of the snapping sheet.
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# Q3:
+- inkWell: used when the developer wants a Material Design ink splash effect.
+-  GestureDetector:
+	- provides more controls such as dragging,
+	- no limitation on ancestor widgets, while InkWell must have Material widget as an ancestor.
